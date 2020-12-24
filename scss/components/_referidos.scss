@@ -1,0 +1,10 @@
+@for $amigos from 1 through 20   {
+    .referidos-#{$amigos}
+    { font-size: 25px + $amigos;
+    font-family: $montserrat;
+    color: #2c3e50;
+    text-align: center;
+    }
+}
+
+  
